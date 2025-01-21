@@ -1,0 +1,41 @@
+.home{
+    background-image: url("https://preview.colorlib.com/theme/cozastore/images/slide-01.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    .word-section{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        .words{
+            margin-top: 13rem;
+            p{
+                font-size: 2rem;
+                color: #333333;
+            }
+            h2{
+                font-size: 6rem;
+                color: #333333;
+            }
+            .button{
+                button{
+                    background-color: #717FE0;
+                    color: white;
+                    border: none;
+                    border-radius: 15px;
+                    padding: 10px 25px;
+                    font-size: 15px;
+                    transition: 0.4s;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #333333;
+                    }
+                }
+            }
+        }
+
+    }
+}body{
+    background-color: #D8DCDF;
+}

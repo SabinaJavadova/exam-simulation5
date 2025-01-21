@@ -1,0 +1,40 @@
+header {
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    transition: background-color 0.3s ease;
+
+
+    .container {
+        display: flex;
+        width: 80%;
+        margin: auto;
+
+        .logos {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+
+            .between {
+                display: flex;
+                gap: 5rem;
+
+                .logo {
+                    /* Your logo styling here */
+                }
+
+                ul {
+                    display: flex;
+                    gap: 1rem;
+                }
+            }
+        }
+    }
+}
+
+body {
+    background-color: #D8DCDF;
+}

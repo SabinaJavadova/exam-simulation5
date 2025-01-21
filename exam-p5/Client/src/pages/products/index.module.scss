@@ -1,0 +1,27 @@
+.container{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   margin: auto;
+   input{
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+   }
+   img{
+    width: 100%;
+   }
+   .ikon {
+    font-size: 2rem; 
+    color: #717FE0; 
+    cursor: pointer;
+    transition: 0.3s; 
+
+  }
+  
+  .ikon:hover {
+    color: #333333;
+  }
+}
